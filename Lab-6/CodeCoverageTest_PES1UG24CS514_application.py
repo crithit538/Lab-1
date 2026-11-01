@@ -69,7 +69,7 @@ def test_other_class_tatkal_charge():
     assert tatkal_charge("3A", 500) == 150
 
 def test_minimum_tatkal_charge():
-    assert tatkal_charge("SL", 500) == 100
+    assert tatkal_charge("3A", 100) == 100
 
 def test_maximum_tatkal_charge():
     assert tatkal_charge("3A", 2000) == 400
